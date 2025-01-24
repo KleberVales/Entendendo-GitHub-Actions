@@ -10,3 +10,12 @@
 
       - É um conjunto de instruções que define uma automação.
       - Cada workflow é configurado em um arquivo YAML dentro do repositório (pasta .github/workflows/).
+     
+   2. 2️⃣ Eventos (Triggers)
+
+      - São as ações que disparam um workflow, como:
+
+        * push → Quando há um novo commit.
+        * pull_request → Quando há uma nova PR aberta ou atualizada.
+        * schedule → Execução programada (tipo um cron job).
+        * workflow_dispatch → Execução manual.
