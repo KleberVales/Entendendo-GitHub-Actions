@@ -12,15 +12,37 @@
       - Cada workflow é configurado em um arquivo YAML dentro do repositório (pasta .github/workflows/).
      
    2. 2️⃣ Eventos (Triggers)
-
+      
       - São as ações que disparam um workflow, como:
 
         * push → Quando há um novo commit.
         * pull_request → Quando há uma nova PR aberta ou atualizada.
         * schedule → Execução programada (tipo um cron job).
         * workflow_dispatch → Execução manual.
-       
-    3. 3️⃣ Jobs (Tarefas)
+          
+   3. 3️⃣ Jobs (Tarefas)
 
       - Cada workflow contém jobs, que são conjuntos de etapas executados em um runner.
-      Um workflow pode ter vários jobs rodando paralelamente ou em sequência.
+      - Um workflow pode ter vários jobs rodando paralelamente ou em sequência.
+        
+   4. 4️⃣ Steps (Passos)
+
+      - São os comandos individuais dentro de um job.
+      - Cada step pode executar comandos shell (run) ou utilizar uma action pronta (uses).
+
+   5. 5️⃣ Actions
+
+      - São scripts reutilizáveis que executam tarefas dentro dos steps.
+      - Podem ser criadas do zero ou baixadas do GitHub Marketplace.
+      - Exemplo: actions/checkout@v4 → Faz o checkout do código no repositório.
+        
+   6. 6️⃣ Runners
+
+      - São as máquinas que executam os workflows.
+      - O GitHub disponibiliza runners gratuitos na nuvem, mas também é possível configurar runners auto-hospedados.
+
+      
+
+
+
+      
