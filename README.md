@@ -19,3 +19,8 @@
         * pull_request → Quando há uma nova PR aberta ou atualizada.
         * schedule → Execução programada (tipo um cron job).
         * workflow_dispatch → Execução manual.
+       
+    3. 3️⃣ Jobs (Tarefas)
+
+      - Cada workflow contém jobs, que são conjuntos de etapas executados em um runner.
+      Um workflow pode ter vários jobs rodando paralelamente ou em sequência.
