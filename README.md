@@ -1,1 +1,3 @@
-# Entendendo-GitHub-Actions
+# Entendendo GitHub Actions
+
+## 🔹 Fundamentos do GitHub Actions
