@@ -47,6 +47,7 @@
    2. Ambientes e Contextos – Uso de variáveis, secrets e configurações.
    3. Usando Actions Prontas – Exploração do GitHub Marketplace.
    4. Escrevendo suas próprias Actions – Criando Docker-based e JavaScript Actions.
+   5. Reutilização de Workflows – Estratégias para compartilhar código entre projetos.
 
       
 
