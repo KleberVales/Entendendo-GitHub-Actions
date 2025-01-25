@@ -44,6 +44,7 @@
    ## 🔹 Criação e Configuração de Workflows
 
    1. Criando um Workflow Básico – Exemplo prático de um arquivo .github/workflows/main.yml.
+   2. Ambientes e Contextos – Uso de variáveis, secrets e configurações.
 
       
 
