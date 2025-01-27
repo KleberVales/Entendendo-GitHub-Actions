@@ -44,10 +44,42 @@
    ## 🔹 Criação e Configuração de Workflows
 
    1. Criando um Workflow Básico – Exemplo prático de um arquivo .github/workflows/main.yml.
-   2. Ambientes e Contextos – Uso de variáveis, secrets e configurações.
-   3. Usando Actions Prontas – Exploração do GitHub Marketplace.
-   4. Escrevendo suas próprias Actions – Criando Docker-based e JavaScript Actions.
-   5. Reutilização de Workflows – Estratégias para compartilhar código entre projetos.
+      exemplo prático de um arquivo GitHub Actions Workflow que será salvo em: 📂 .github/workflows/main.yml
+
+   ### 📝 Arquivo main.yml
+
+   ```
+name: Meu Primeiro Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do Código
+        uses: actions/checkout@v4
+
+      - name: Configurar Ambiente Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Rodar Script de Teste
+        run: echo "Hello, GitHub Actions!"
+```
+
+   3. Ambientes e Contextos – Uso de variáveis, secrets e configurações.
+   4. Usando Actions Prontas – Exploração do GitHub Marketplace.
+   5. Escrevendo suas próprias Actions – Criando Docker-based e JavaScript Actions.
+   6. Reutilização de Workflows – Estratégias para compartilhar código entre projetos.
 
       
 
