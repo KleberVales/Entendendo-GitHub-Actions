@@ -76,6 +76,8 @@ jobs:
         run: echo "Hello, GitHub Actions!"
 ```
 
+### 🔹 O que esse Workflow faz?
+
    3. Ambientes e Contextos – Uso de variáveis, secrets e configurações.
    4. Usando Actions Prontas – Exploração do GitHub Marketplace.
    5. Escrevendo suas próprias Actions – Criando Docker-based e JavaScript Actions.
