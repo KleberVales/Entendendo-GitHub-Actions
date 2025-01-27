@@ -77,6 +77,9 @@ jobs:
 ```
 
 ### 🔹 O que esse Workflow faz?
+- ✅ Roda automaticamente quando há um push ou pull request na branch main.
+- ✅ Faz o checkout do código do repositório.
+
 
    3. Ambientes e Contextos – Uso de variáveis, secrets e configurações.
    4. Usando Actions Prontas – Exploração do GitHub Marketplace.
